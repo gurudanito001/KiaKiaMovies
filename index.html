@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiaKiaMovies</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">KiaKiaMovies</span>
+        </div>
+    </nav>
+
+    <main style="background-color: #191C21;">
+        <section class="container-fluid banner">
+            <div class="row overlay h-100">
+                <div class="col-12 h-100 text-white d-flex flex-column justify-content-center">
+                    <h2 class="text-center megaText">
+                        Hub for selling african movies
+                    </h2>
+                    <p class="lead text-center">
+                        Upload your movies, we find buyers for you 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5 py-5">
+            <p class="megaText text-center" style="color: rgb(202, 201, 201); line-height: normal; font-size: 3rem;">
+                Select Movies From A Wide <br/>Range Of Categories
+            </p>
+        </section>
+            
+        <section class="container pb-4" >
+            <header class="megaText mb-3" style="color: rgb(202, 201, 201); line-height: normal; font-size: 2rem;">
+                Movies
+            </header>
+
+            <ul class="list-unstyled d-flex" style="overflow: hidden;  clear: both;">
+    
+                <li class="d-inline-block float-start videoCard movies me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard movies me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard movies me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard movies me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+            </ul>
+
+            <div class="container d-flex">
+                <span class="ms-5 ms-lg-0 chevronButtonLeft d-flex align-items-center justify-content-center" onclick="moveCards('right', 'movies')">
+                    <img src="./images/up-chevron.svg" id="chevronLeft" width="16px"/>
+                </span>
+                <span class="ms-auto me-5 me-lg-0 chevronButtonRight d-flex align-items-center justify-content-center" onclick="moveCards('left', 'movies')">
+                    <img src="./images/up-chevron.svg" id="chevronRight" width="16px"/>
+                </span>
+            </div>
+        </section>
+
+        <section class="container pb-4" >
+            <header class="megaText mb-3" style="color: rgb(202, 201, 201); line-height: normal; font-size: 2rem;">
+                Series
+            </header>
+
+            <ul class="list-unstyled d-flex" style="overflow: hidden;  clear: both;">
+    
+                <li class="d-inline-block float-start videoCard series me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard series me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard series me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard series me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+            </ul>
+
+            <div class="container d-flex">
+                <span class="ms-5 ms-lg-0 chevronButtonLeft d-flex align-items-center justify-content-center" onclick="moveCards('right', 'series')">
+                    <img src="./images/up-chevron.svg" id="chevronLeft" width="16px"/>
+                </span>
+                <span class="ms-auto me-5 me-lg-0 chevronButtonRight d-flex align-items-center justify-content-center" onclick="moveCards('left', 'series')">
+                    <img src="./images/up-chevron.svg" id="chevronRight" width="16px"/>
+                </span>
+            </div>
+        </section>
+
+        <section class="container pb-4" >
+            <header class="megaText mb-3" style="color: rgb(202, 201, 201); line-height: normal; font-size: 2rem;">
+                Comedy Skits
+            </header>
+
+            <ul class="list-unstyled d-flex" style="overflow: hidden;  clear: both;">
+    
+                <li class="d-inline-block float-start videoCard comedySkits me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard comedySkits me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard comedySkits me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+
+                <li class="d-inline-block float-start videoCard comedySkits me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+            </ul>
+
+            <div class="container d-flex">
+                <span class="ms-5 ms-lg-0 chevronButtonLeft d-flex align-items-center justify-content-center" onclick="moveCards('right', 'comedySkits')">
+                    <img src="./images/up-chevron.svg" id="chevronLeft" width="16px"/>
+                </span>
+                <span class="ms-auto me-5 me-lg-0 chevronButtonRight d-flex align-items-center justify-content-center" onclick="moveCards('left', 'comedySkits')">
+                    <img src="./images/up-chevron.svg" id="chevronRight" width="16px"/>
+                </span>
+            </div>
+        </section>
+
+        <section class="container pb-4" >
+            <header class="megaText mb-3" style="color: rgb(202, 201, 201); line-height: normal; font-size: 2rem;">
+                Documentaries
+            </header>
+
+            <ul class="list-unstyled d-flex" style="overflow: hidden;  clear: both;">
+                <li class="d-inline-block float-start videoCard documentaries me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+                <li class="d-inline-block float-start videoCard documentaries me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+                <li class="d-inline-block float-start videoCard documentaries me-4" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+                <li class="d-inline-block float-start videoCard documentaries me-5" style="left: 0px;">
+                    <video class="p-0" width="350" muted controls>
+                        <source src="./images/AGT Video 2020.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </li>
+            </ul>
+
+            <div class="container d-flex">
+                <span class="ms-5 ms-lg-0 chevronButtonLeft d-flex align-items-center justify-content-center" onclick="moveCards('right', 'documentaries')">
+                    <img src="./images/up-chevron.svg" id="chevronLeft" width="16px"/>
+                </span>
+                <span class="ms-auto me-5 me-lg-0 chevronButtonRight d-flex align-items-center justify-content-center" onclick="moveCards('left', 'documentaries')">
+                    <img src="./images/up-chevron.svg" id="chevronRight" width="16px"/>
+                </span>
+            </div>
+        </section>
+
+        <section class="text-center py-5">
+            <p class="megaText text-center" style="color: rgb(202, 201, 201); line-height: normal; font-size: 3rem;">
+                Upload Your Movies <br/>We find Buyers for you
+            </p>
+
+            <button>
+                Get Started
+            </button>
+        </section>
+    </main>
+
+    <footer class="container-fluid px-5 d-flex bg-dark py-4 text-light"> 
+        <p class="h3 me-auto">KiaKiaMovies</p>
+        <small>&copy; 2022</small>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
